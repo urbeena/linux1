@@ -1,0 +1,15 @@
+#!/bin/bash
+user1@ubuntu:~$ nano make_directory.sh
+echo "enter directory name"
+read newdir
+mkdir $newdir
+user1@ubuntu:~$ bash make_directory.sh
+enter directory name
+test_dir
+user1@ubuntu:~$ ls
+addd_numbers.sh        comment_examplee.sh  Downloads          elseif_examples.sh      function_parameter.sh  if_with_OR.sh          nano.save          stringg_combine.sh    user_input.sh
+add_numbers.sh         comment_example.sh   echo_example.sh    file.sh                 function_return.sh     make_directory.sh      Pictures           stringg_cpmbine.sh    Videos
+case_example.sh        comment_examples.sh  echo_examples.sh   for_examples.sh         if__with__and.sh       multiline_comment.sh   Public             substring_example.sh  while_examplee.sh
+command_line_names.sh  Desktop              echo_exampless.sh  function_example.sh     if_with_and.sh         multiline_commentt.sh  simple             Templates             while_example.sh
+command_line.sh        Documents            echo_exampl.sh     functionn_parameter.sh  if_withh_and.sh        Music                  string_combine.sh  test_dir
+user1@ubuntu:~$ 
