@@ -1,0 +1,11 @@
+#!/bin/bash
+user1@ubuntu:~$ nano string_combine.sh
+string1="Linux"
+string2="Hint"
+echo "$Linux$Hint"
+string3=$string1+$string2
+string3+=" is a big tutorial site"
+echo $string3
+user1@ubuntu:~$ bash string_combine.sh
+LinuxHint
+Linux+Hint is a big tutorial site
