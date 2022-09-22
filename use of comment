@@ -1,0 +1,8 @@
+#!/bin/bash
+user1@ubuntu:~$ nano comment_examplee.sh
+# Add two numeric values
+((sum=25+20))
+#print the result
+echo $sum
+user1@ubuntu:~$ bash comment_examplee.sh
+45
