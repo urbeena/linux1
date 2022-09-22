@@ -1,0 +1,5 @@
+#!/bin/bash
+user1@ubuntu:~$ bash echo_exampl.sh
+print the text with newline
+print the text without newline
+Remove 	   backslash 	 characters
