@@ -1,0 +1,8 @@
+#!/bin/bash 
+user1@ubuntu:~$ nano sleep_example.sh
+echo "wait for 5 seconds"
+sleep 5
+echo "completed"
+user1@ubuntu:~$ bash sleep_example.sh
+wait for 5 seconds
+ccompleted
