@@ -1,0 +1,10 @@
+#!/bin/bash
+user1@ubuntu:~$ nano functionn_parameter.sh
+rectangle_area() {
+area=$(($1 * $2))
+echo "area is : $area"
+}
+rectangle_area 10 20
+user1@ubuntu:~$ bash functionn_parameter.sh
+area is : 200
+user1@ubuntu:~$ 
