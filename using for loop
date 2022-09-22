@@ -1,0 +1,9 @@
+#!/bin/bash
+user1@ubuntu:~$ nano for_examples.sh
+for(( counter=10; counter>0; counter--))
+do
+echo -n "$counter "
+done
+printf "\n"
+user1@ubuntu:~$ bash for_examples.sh
+10 9 8 7 6 5 4 3 2 1
