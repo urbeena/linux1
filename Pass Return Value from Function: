@@ -1,0 +1,15 @@
+#!/bin/bash
+user1@ubuntu:~$ nano function_return.sh
+function greeting() {
+str="hello, $name"
+echo $str
+}
+echo "enter your name"
+read name
+val=$(greeting)
+echo "return value of the function is $val"
+user1@ubuntu:~$ bash function_return.sh
+enter your name
+minnu
+return value of the function is hello, minnu
+user1@ubuntu:~$ 
