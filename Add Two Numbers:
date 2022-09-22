@@ -1,0 +1,15 @@
+#!/bin/bash
+user1@ubuntu:~$ nano addd_numbers.sh
+echo "enter first number"
+read x
+echo "enter second number"
+read y
+(( sum=x+y ))
+echo "the result of addition=$sum"
+user1@ubuntu:~$ bash addd_numbers.sh
+enter first number
+1
+enter second number
+2
+the result of addition=3
+user1@ubuntu:~$ 
