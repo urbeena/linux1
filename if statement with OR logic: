@@ -1,0 +1,22 @@
+#!/bin/bash
+user1@ubuntu:~$ nano if_with_OR.sh
+echo "enter the number"
+read n     
+if [[ ( $n -eq 15 || $n -eq 40 ) ]]
+then
+echo "you won the game"
+else
+echo "you lost the game"
+fi
+user1@ubuntu:~$ bash if_with_OR.sh
+enter the number
+40
+you won the game
+user1@ubuntu:~$ bash if_with_OR.sh
+enter the number
+30
+you lost the game
+user1@ubuntu:~$ 
+
+
+
