@@ -1,0 +1,24 @@
+!#/bin/bash
+user1@ubuntu:~$ nano delete_file.sh
+echo "enter file name to remove"
+read fn
+rm -i $fn
+user1@ubuntu:~$ ls
+addd_numbers.sh        comment_example.sh   Downloads           file.sh                 if__with__and.sh      multiline_commentt.sh  read_file.sh          Templates
+add_numbers.sh         comment_examples.sh  echo_example.sh     for_examples.sh         if_with_and.sh        Music                  simple                test_dir
+case_example.sh        delete_file.sh       echo_examples.sh    function_example.sh     if_withh_and.sh       nano.save              string_combine.sh     user_input.sh
+command_line_names.sh  Desktop              echo_exampless.sh   functionn_parameter.sh  if_with_OR.sh         newdir                 stringg_combine.sh    Videos
+command_line.sh        direcctory_exist.sh  echo_exampl.sh      function_parameter.sh   make_directory.sh     Pictures               stringg_cpmbine.sh    while_examplee.sh
+comment_examplee.sh    Documents            elseif_examples.sh  function_return.sh      multiline_comment.sh  Public                 substring_example.sh  while_example.sh
+user1@ubuntu:~$ bash delete_file.sh
+delete_file.sh: line 1: !#/bin/bash: No such file or directory
+enter file name to remove
+nano.save
+rm: remove regular file 'nano.save'? y
+user1@ubuntu:~$ ls
+addd_numbers.sh        comment_example.sh   Downloads           file.sh                 if__with__and.sh      multiline_commentt.sh  simple                test_dir
+add_numbers.sh         comment_examples.sh  echo_example.sh     for_examples.sh         if_with_and.sh        Music                  string_combine.sh     user_input.sh
+case_example.sh        delete_file.sh       echo_examples.sh    function_example.sh     if_withh_and.sh       newdir                 stringg_combine.sh    Videos
+command_line_names.sh  Desktop              echo_exampless.sh   functionn_parameter.sh  if_with_OR.sh         Pictures               stringg_cpmbine.sh    while_examplee.sh
+command_line.sh        direcctory_exist.sh  echo_exampl.sh      function_parameter.sh   make_directory.sh     Public                 substring_example.sh  while_example.sh
+comment_examplee.sh    Documents            elseif_examples.sh  function_return.sh      multiline_comment.sh  read_file.sh           Templates
