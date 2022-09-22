@@ -1,0 +1,12 @@
+#!/bin/bash
+user1@ubuntu:~$ nano simple if.sh
+n=19
+if [ $n -lt 19 ];
+then
+echo "it is one digit number"
+else
+echo "it is two digit number"
+fi
+user1@ubuntu:~$ bash simple if.sh
+it is two digit number
+user1@ubuntu:~$ 
