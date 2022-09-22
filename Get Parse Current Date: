@@ -1,0 +1,23 @@
+#!/bin/bash
+user1@ubuntu:~$ nano date_parse.sh
+Year= date +%Y 
+Month= date +%m
+Day= date +%d
+Hour= date +%H
+minute= date +%M
+Second= date +%S
+echo date
+echo "current date is:$ Day_$Month_$Year"
+echo "current time is:$ Hour:$Minute:$Second"
+
+user1@ubuntu:~$ bash date_parse.sh
+2022
+09
+22
+09
+48
+43
+date
+current date is:$ Day_
+current time is:$ Hour::
+user1@ubuntu:~$ 
