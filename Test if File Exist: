@@ -1,0 +1,21 @@
+
+#!/bin/bash
+user1@ubuntu:~$ nano file_exist.sh
+filename=$1
+if [ -f "$filename" ]; then
+echo "file exists"
+else
+echo "file doesnot exist"
+fi
+user1@ubuntu:~$ ls
+addd_numbers.sh        command_line.sh      direcctory_exist.sh  echo_exampl.sh       functionn_parameter.sh  if_with_OR.sh          Pictures            stringg_cpmbine.sh    while_examplee.sh
+add_numbers.sh         comment_examplee.sh  Documents            elseif_examples.sh   function_parameter.sh   make_directory.sh      Public              substring_example.sh  while_example.sh
+append_file.sh         comment_example.sh   Downloads            file_exist.sh        function_return.sh      multiline_comment.sh   read_file.sh        Templates
+book.txt               comment_examples.sh  echo_example.sh      file.sh              if__with__and.sh        multiline_commentt.sh  simple              test_dir
+case_example.sh        delete_file.sh       echo_examples.sh     for_examples.sh      if_with_and.sh          Music                  string_combine.sh   user_input.sh
+command_line_names.sh  Desktop              echo_exampless.sh    function_example.sh  if_withh_and.sh         newdir                 stringg_combine.sh  Videos
+user1@ubuntu:~$ bash file_exist.sh simple
+file exists
+user1@ubuntu:~$ bash file_exist.sh test
+file doesnot exist
+user1@ubuntu:~$ 
