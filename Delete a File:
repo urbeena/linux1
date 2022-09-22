@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 user1@ubuntu:~$ nano delete_file.sh
 echo "enter file name to remove"
 read fn
