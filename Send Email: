@@ -1,0 +1,8 @@
+#!/bin/bash
+user1@ubuntu:~$ nano email_example.sh
+recipient="admin@example.com"
+subject="greeting"
+message="welcome to our site"
+mail-s $subject $recipient <<< $message
+user1@ubuntu:~$ bash email_example.sh
+user1@ubuntu:~$ 
