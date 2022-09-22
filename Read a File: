@@ -1,0 +1,12 @@
+#!/bin/bash
+user1@ubuntu:~$ nano read_file.sh
+file='file.sh'
+while read line; do
+echo $line
+done < $file
+user1@ubuntu:~$ nano read_file.sh
+user1@ubuntu:~$ bash read_file.sh
+echo hello world
+
+
+user1@ubuntu:~$ 
