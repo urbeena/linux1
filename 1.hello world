@@ -1,3 +1,4 @@
+#!/bin/bash
 user1@ubuntu:~$ nano file.sh
 user1@ubuntu:~$ bash file.sh
 hello world
