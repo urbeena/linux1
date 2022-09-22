@@ -1,0 +1,8 @@
+#!/bin/bash
+user1@ubuntu:~$ nano wait_example.sh
+echo "wait command" &
+process_id=$!
+echo "exited with status $?"
+user1@ubuntu:~$ bash wait_example.sh
+exited with status 0
+wait command
