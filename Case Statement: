@@ -1,0 +1,23 @@
+#!/bin/bash
+user1@ubuntu:~$ nano case_example.sh
+echo "enter your lucky number"
+read n
+case $n  in
+100)
+echo echo "you got the first prize";;
+500)
+echo "you got the second prize";;
+999)
+echo "you got the third prize";;
+*)
+echo "sorry, try for the next time";;
+esac
+user1@ubuntu:~$ bash case_example.sh
+enter your lucky number
+100
+echo you got the first prize
+user1@ubuntu:~$ bash case_example.sh
+enter your lucky number
+101
+sorry, try for the next time
+user1@ubuntu:~$ 
