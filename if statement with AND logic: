@@ -1,0 +1,25 @@
+#!/bin/bash
+user1@ubuntu:~$ nano if_withh_and.sh
+echo "enter username"
+read username       
+echo "enter password"
+read password
+if [[ ( $username == "urbeena" && $password == "secret" ) ]]; then
+echo "valid id"
+else
+echo "invalid id"
+fi
+
+user1@ubuntu:~$ bash if_withh_and.sh
+enter username
+urbeena
+enter password
+secret
+valid id
+user1@ubuntu:~$ bash if_with_and.sh
+enter useername
+urbeena
+enter password
+123
+invalid answer
+user1@ubuntu:~$ 
