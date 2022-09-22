@@ -1,0 +1,12 @@
+#!/bin/bash
+user1@ubuntu:~$ nano user_input.sh
+
+echo "enter your name"
+read name
+echo "welcome $name to linux"
+
+user1@ubuntu:~$ bash user_input.sh
+enter your name
+urbeena
+welcome urbeena to linux
+user1@ubuntu:~$ 
