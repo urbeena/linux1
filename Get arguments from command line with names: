@@ -1,0 +1,17 @@
+#!bin/bash
+user1@ubuntu:~$ nano command_line_names.sh
+for arg in "$@"
+do 
+index=$(echo $arg | cut -f1 -d=)
+val=$(echo $arg | cut -f2 -d=)
+case $index in
+X) x=$val;;
+Y) y=$val;;
+*)
+esac 
+done
+((result=x+y))
+echo "X+Y=$result"
+user1@ubuntu:~$ bash command_line_names.sh X=20 Y=10
+X+Y=30
+user1@ubuntu:~$ 
