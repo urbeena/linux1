@@ -1,0 +1,12 @@
+user1@ubuntu:~$ nano multiline_commentt.sh
+#!/bin/bash
+: '
+the following script calculates 
+the square value of the number,5 .
+ '
+((area=5*5))
+echo $area
+user1@ubuntu:~$ bash multiline_commentt.sh
+25
+
+
