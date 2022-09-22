@@ -1,0 +1,16 @@
+#!/bin/bash
+user1@ubuntu:~$ nano command_line.sh
+echo "total argumrnts : $#" 
+echo "first argument : $1"
+echo "second argument : $2" 
+user1@ubuntu:~$ bash command_line.sh
+total argumrnts : 0
+first argument : 
+second argument : 
+user1@ubuntu:~$ bash command_line.sh HADIII urbii
+total argumrnts : 2
+first argument : HADIII
+second argument : urbii
+user1@ubuntu:~$ 
+
+
