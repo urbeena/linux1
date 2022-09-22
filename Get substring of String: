@@ -1,0 +1,8 @@
+#!/bin/bash
+user1@ubuntu:~$ nano substring_example.sh
+Str="learn linux from linux hint"
+SubStr=${Str:6:5}
+echo $SubStr
+user1@ubuntu:~$ bash substring_example.sh
+linux
+user1@ubuntu:~$ 
