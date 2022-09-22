@@ -1,0 +1,25 @@
+#!/bin/bash
+user1@ubuntu:~$ nano elseif_examples.sh
+echo "enter your lucky number"
+read n
+if [ $n -eq 101 ]
+then
+echo "you got first prize"
+elif [ $n -eq 500 ];
+then
+echo "you got second prize"
+elif [ $n -eq 999 ];
+then
+echo "you got third prize"
+else
+echo "srry try next time"
+fi
+user1@ubuntu:~$ bash elseif_examples.sh
+enter your lucky number
+510
+srry try next time
+user1@ubuntu:~$ bash elseif_examples.sh
+enter your lucky number
+500 
+you got second prize
+user1@ubuntu:~$ 
