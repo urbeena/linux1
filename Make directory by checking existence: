@@ -1,0 +1,22 @@
+#!/bin/bash
+user1@ubuntu:~$ nano direcctory_exist.sh
+echo "enter directory name"
+read ndir
+if [ -d "$ndir" ]
+then
+echo "directory exists"
+else
+mkdir $ndir
+echo "directory created"
+fi
+ser1@ubuntu:~$ bash direcctory_exist.sh
+enter directory name
+newdir
+directory created
+user1@ubuntu:~$ ls
+addd_numbers.sh        comment_examplee.sh  Documents          echo_exampl.sh       functionn_parameter.sh  if_withh_and.sh        Music      simple                Templates          while_example.sh
+add_numbers.sh         comment_example.sh   Downloads          elseif_examples.sh   function_parameter.sh   if_with_OR.sh          nano.save  string_combine.sh     test_dir
+case_example.sh        comment_examples.sh  echo_example.sh    file.sh              function_return.sh      make_directory.sh      newdir     stringg_combine.sh    user_input.sh
+command_line_names.sh  Desktop              echo_examples.sh   for_examples.sh      if__with__and.suser1@ubuntu:~$ nano direcctory_exist.shh        multiline_comment.sh   Pictures   stringg_cpmbine.sh    Videos
+command_line.sh        direcctory_exist.sh  echo_exampless.sh  function_example.sh  if_with_and.sh          multiline_commentt.sh  Public     substring_example.sh  while_examplee.sh
+user1@ubuntu:~$ 
